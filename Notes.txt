@@ -1,0 +1,15 @@
+{
+        title: "ToDo List App",
+        description: "A simple task management app built with JavaScript to add, delete, and complete tasks.",
+        link: "https://to-do-list-sigma-two-37.vercel.app/",
+      },
+      {
+        title: "Landing Page",
+        description: "A responsive landing page built with JavaScript and Bootstrap.",
+        link: "https://project-2-theta-nine.vercel.app/",
+      },
+      {
+        title: "Portfolio Website",
+        description: "Personal portfolio website built with React and Tailwindcss to showcase my work and skills.",
+        link: "#",
+      },
