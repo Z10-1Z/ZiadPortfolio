@@ -1,4 +1,5 @@
 import React from "react";
+import ProfilePic from "/src/assets/Ziad.jpg";
 import { motion } from "framer-motion"; // eslint-disable-line
 
 export default function About() {
@@ -23,7 +24,7 @@ export default function About() {
           className="flex justify-center"
         >
           <img
-            src="/src/assets/Ziad.jpg"
+            src={ProfilePic}
             alt="Profile"
             className="rounded-2xl shadow-2xl border-4 border-indigo-400 dark:border-indigo-600"
           />

@@ -1,25 +1,28 @@
 import React from "react";
+import ToDoListPic from "/src/assets/Screenshot (127).png";
+import LandingPagePic from "/src/assets/Screenshot (128).png";
+import PortfolioPic from "/src/assets/Screenshot (129).png";
 import { motion } from "framer-motion";  // eslint-disable-line
 
 const projects = [
   {
     title: "ToDo List App",
     description: "A simple and responsive ToDo app built with React for task management.",
-    image: "/src/assets/Screenshot (127).png",
+    image: ToDoListPic,
     demo: "https://to-do-list-sigma-two-37.vercel.app/",
     code: "https://github.com/Z10-1Z/ToDoList",
   },
   {
     title: "Landing Page",
     description: "Modern and responsive landing page using React and TailwindCSS.",
-    image: "/src/assets/Screenshot (128).png",
+    image: LandingPagePic,
     demo: "https://project-2-theta-nine.vercel.app/",
     code: "https://github.com/Z10-1Z/Project_2",
   },
   {
     title: "Portfolio Website",
     description: "Personal portfolio built with React, TailwindCSS, and animations.",
-    image: "/src/assets/Screenshot (129).png",
+    image: PortfolioPic,
     demo: "#",
     code: "#",
   },

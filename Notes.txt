@@ -13,3 +13,5 @@
         description: "Personal portfolio website built with React and Tailwindcss to showcase my work and skills.",
         link: "#",
       },
+
+      git remote set-url origin https://github.com/Z10-1Z/ZiadPortfolio.git
