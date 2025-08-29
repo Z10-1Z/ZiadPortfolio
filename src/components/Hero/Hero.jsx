@@ -27,17 +27,16 @@ export default function Hero() {
                      bg-gradient-to-r from-indigo-400 via-pink-400 to-purple-500 
                      bg-clip-text text-transparent leading-tight"
         >
-          Hi, I’m Ziad Mohamed
+          Hi, I’m ZIAD MOHAMED
         </motion.h1>
 
         {/* Subtitle */}
         <motion.p
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0.6, duration: 0.8 }}
           className="mt-6 text-lg md:text-xl text-gray-500 dark:text-gray-300"
         >
-          Frontend Developer specializing in{" "}
+          Front-End Developer specializing in{" "}
           <span className="font-semibold text-indigo-500 dark:text-indigo-300">
             React.js
           </span>{" "}

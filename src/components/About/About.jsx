@@ -42,8 +42,8 @@ export default function About() {
           </h2>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             I’m <span className="font-semibold text-indigo-500">Ziad Mohamed</span>, 
-            a passionate <span className="font-semibold">Frontend Developer</span> with{" "}
-            <span className="font-semibold text-pink-500">2 years of experience</span> 
+            a passionate <span className="font-semibold">Front-End Developer</span> with{" "}
+            <span className="font-semibold text-pink-500">+2 years experience </span>  
             building modern web applications using React and Next.js.  
             <br />
             <br />

@@ -60,11 +60,11 @@ export default function NavBar() {
                      bg-clip-text text-transparent 
                      transform transition duration-500 hover:scale-110 hover:rotate-2 cursor-pointer"
         >
-          Ziad Mohamed
+          ZIAD MOHAMED
         </div>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex space-x-6 text-gray-900 dark:text-white drop-shadow-lg">
+        <ul className="hidden md:flex space-x-6 text-gray-200 dark:text-white drop-shadow-lg">
           {navLinks.map((link) => (
             <li
               key={link.to}
@@ -101,7 +101,7 @@ export default function NavBar() {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden focus:outline-none text-2xl text-gray-900 dark:text-white"
+            className="md:hidden focus:outline-none text-2xl text-gray-200 dark:text-white"
             onClick={() => setIsOpen(!isOpen)}
           >
             {isOpen ? "✖" : "☰"}
@@ -111,7 +111,7 @@ export default function NavBar() {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="md:hidden bg-white/10 dark:bg-gray-900/70 backdrop-blur-md px-6 pb-4 space-y-3 text-gray-900 dark:text-white">
+        <ul className="md:hidden bg-white/10 dark:bg-gray-900/70 backdrop-blur-md px-6 pb-4 space-y-3 text-gray-200 dark:text-white">
           {navLinks.map((link) => (
             <li
               key={link.to}
